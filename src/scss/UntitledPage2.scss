@@ -1,0 +1,501 @@
+@use "utils" as *;
+@use "global" as *;
+
+.untitled-page2 {
+  &.root {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 2011px;
+    height: 3314px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .rect {
+    position: absolute;
+    top: 3139px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 2011px;
+    height: 175px;
+    background-color: rgb(51, 51, 51);
+  }
+  .highlight {
+    position: absolute;
+    top: 3188px;
+    right: 735px;
+    bottom: 63px;
+    left: 736px;
+    display: flex;
+    justify-content: center;
+    width: 540px;
+    height: 63px;
+    font: 400 18px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .rect1 {
+    position: absolute;
+    top: 2294px;
+    right: 0px;
+    bottom: 176px;
+    left: 0px;
+    width: 2011px;
+    height: 844px;
+    background-color: rgb(238, 238, 238);
+  }
+  .medium_title {
+    position: absolute;
+    top: 2662px;
+    right: 536.5px;
+    bottom: 624px;
+    left: 1297.5px;
+    display: flex;
+    justify-content: center;
+    width: 177px;
+    height: 28px;
+    font: 700 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 119, 101);
+    text-align: center;
+  }
+  .highlight1 {
+    position: absolute;
+    top: 2691px;
+    right: 529px;
+    bottom: 602px;
+    left: 1290px;
+    display: flex;
+    justify-content: center;
+    width: 192px;
+    height: 21px;
+    font: 400 18px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .image {
+    position: absolute;
+    top: 2482px;
+    right: 541px;
+    bottom: 664px;
+    left: 1302px;
+    width: 168px;
+    height: 168px;
+  }
+  .medium_title1 {
+    position: absolute;
+    top: 2662px;
+    right: 923px;
+    bottom: 624px;
+    left: 924px;
+    display: flex;
+    justify-content: center;
+    width: 164px;
+    height: 28px;
+    font: 700 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 119, 101);
+    text-align: center;
+  }
+  .highlight11 {
+    position: absolute;
+    top: 2691px;
+    right: 927px;
+    bottom: 602px;
+    left: 928px;
+    display: flex;
+    justify-content: center;
+    width: 156px;
+    height: 21px;
+    font: 400 18px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .image1 {
+    position: absolute;
+    top: 2482px;
+    right: 921px;
+    bottom: 664px;
+    left: 922px;
+    width: 168px;
+    height: 168px;
+  }
+  .medium_title2 {
+    position: absolute;
+    top: 2975px;
+    right: 542px;
+    bottom: 311px;
+    left: 1303px;
+    display: flex;
+    justify-content: center;
+    width: 166px;
+    height: 28px;
+    font: 700 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 119, 101);
+    text-align: center;
+  }
+  .highlight12 {
+    position: absolute;
+    top: 3004px;
+    right: 558px;
+    bottom: 289px;
+    left: 1319px;
+    display: flex;
+    justify-content: center;
+    width: 134px;
+    height: 21px;
+    font: 400 18px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .image2 {
+    position: absolute;
+    top: 2795px;
+    right: 541px;
+    bottom: 351px;
+    left: 1302px;
+    width: 168px;
+    height: 168px;
+  }
+  .medium_title3 {
+    position: absolute;
+    top: 2975px;
+    right: 940.5px;
+    bottom: 311px;
+    left: 941.5px;
+    display: flex;
+    justify-content: center;
+    width: 129px;
+    height: 28px;
+    font: 700 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 119, 101);
+    text-align: center;
+  }
+  .highlight13 {
+    position: absolute;
+    top: 3004px;
+    right: 917px;
+    bottom: 289px;
+    left: 918px;
+    display: flex;
+    justify-content: center;
+    width: 176px;
+    height: 21px;
+    font: 400 18px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .image3 {
+    position: absolute;
+    top: 2795px;
+    right: 921px;
+    bottom: 351px;
+    left: 922px;
+    width: 168px;
+    height: 168px;
+  }
+  .medium_title4 {
+    position: absolute;
+    top: 2975px;
+    right: 1323px;
+    bottom: 311px;
+    left: 564px;
+    display: flex;
+    justify-content: center;
+    width: 124px;
+    height: 28px;
+    font: 700 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 119, 101);
+    text-align: center;
+  }
+  .highlight14 {
+    position: absolute;
+    top: 3004px;
+    right: 1294px;
+    bottom: 289px;
+    left: 535px;
+    display: flex;
+    justify-content: center;
+    width: 182px;
+    height: 21px;
+    font: 400 18px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .image4 {
+    position: absolute;
+    top: 2795px;
+    right: 1301px;
+    bottom: 351px;
+    left: 542px;
+    width: 168px;
+    height: 168px;
+  }
+  .medium_title5 {
+    position: absolute;
+    top: 2662px;
+    right: 1284px;
+    bottom: 624px;
+    left: 528px;
+    width: 199px;
+    height: 28px;
+    font: 700 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 119, 101);
+  }
+  .highlight15 {
+    position: absolute;
+    top: 2691px;
+    right: 1324px;
+    bottom: 602px;
+    left: 566px;
+    width: 121px;
+    height: 21px;
+    font: 400 18px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .image5 {
+    position: absolute;
+    top: 2482px;
+    right: 1301px;
+    bottom: 664px;
+    left: 542px;
+    width: 168px;
+    height: 168px;
+  }
+  .hero_title {
+    position: absolute;
+    top: 2351px;
+    right: 863px;
+    bottom: 888px;
+    left: 864px;
+    display: flex;
+    justify-content: center;
+    width: 284px;
+    height: 75px;
+    font: 500 64px/1.17 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 119, 101);
+    text-align: center;
+  }
+  .rect2 {
+    position: absolute;
+    top: 1690px;
+    right: 0px;
+    bottom: 1021px;
+    left: 0px;
+    width: 2011px;
+    height: 603px;
+    background-color: rgb(255, 255, 255);
+  }
+  .title {
+    position: absolute;
+    top: 1978px;
+    right: 450px;
+    bottom: 1108px;
+    left: 451px;
+    width: 1110px;
+    height: 228px;
+    font: 400 32px/1.18 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .title1_box {
+    position: absolute;
+    top: 1828px;
+    right: 467px;
+    bottom: 1372px;
+    left: 614px;
+    width: 930px;
+    height: 114px;
+  }
+  .title1 {
+    font: 400 32px/1.18 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .title1_span0 {
+    font: 1em/1.18 "Roboto", Helvetica, Arial, serif;
+  }
+  .title1_span1 {
+    font: 1em/1.18 "Roboto", Helvetica, Arial, serif;
+  }
+  .title1_span2 {
+    font: 1em/1.18 "Roboto", Helvetica, Arial, serif;
+  }
+  .image11 {
+    position: absolute;
+    top: 1828px;
+    right: 1445px;
+    bottom: 1371px;
+    left: 451px;
+    width: 115px;
+    height: 115px;
+  }
+  .hero_title1 {
+    position: absolute;
+    top: 1737px;
+    right: 629.5px;
+    bottom: 1502px;
+    left: 630.5px;
+    display: flex;
+    justify-content: center;
+    width: 751px;
+    height: 75px;
+    font: 500 64px/1.17 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 119, 101);
+    text-align: center;
+  }
+  .image21 {
+    position: absolute;
+    top: 1207px;
+    right: 0px;
+    bottom: 1625px;
+    left: 0px;
+    width: 2011px;
+    height: 482px;
+  }
+  .rect3 {
+    position: absolute;
+    top: 488px;
+    right: 0px;
+    bottom: 2108px;
+    left: 0px;
+    width: 2011px;
+    height: 718px;
+    background-color: rgb(238, 238, 238);
+  }
+  .title1_box1 {
+    position: absolute;
+    top: 626px;
+    right: 450px;
+    bottom: 2232px;
+    left: 451px;
+    width: 1110px;
+    height: 456px;
+  }
+  .title1_span11 {
+    font: 700 1em/1.18 "Roboto", Helvetica, Arial, serif;
+  }
+  .hero_title2 {
+    position: absolute;
+    top: 535px;
+    right: 823.5px;
+    bottom: 2704px;
+    left: 821.5px;
+    display: flex;
+    justify-content: center;
+    width: 366px;
+    height: 75px;
+    font: 500 64px/1.17 "Roboto", Helvetica, Arial, serif;
+    color: rgb(0, 119, 101);
+    text-align: center;
+  }
+  .cover {
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    bottom: 2827px;
+    left: 0px;
+    width: 2011px;
+    height: 402px;
+  }
+  .hero_title11 {
+    position: absolute;
+    top: 244px;
+    right: 741px;
+    bottom: 2986px;
+    left: 741px;
+    display: flex;
+    justify-content: center;
+    width: 529px;
+    height: 84px;
+    font: 500 72px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .rect4 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 3230px;
+    left: 0px;
+    width: 2011px;
+    height: 84px;
+    background-color: rgb(0, 119, 101);
+  }
+  .image31 {
+    position: absolute;
+    top: 20px;
+    right: 1326px;
+    bottom: 3249px;
+    left: 501px;
+    width: 184px;
+    height: 45px;
+  }
+  .medium_title11 {
+    position: absolute;
+    top: 28px;
+    right: 695px;
+    bottom: 3258px;
+    left: 1187px;
+    display: flex;
+    justify-content: center;
+    width: 129px;
+    height: 28px;
+    font: 500 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .medium_title12 {
+    position: absolute;
+    top: 29px;
+    right: 400px;
+    bottom: 3257px;
+    left: 1516px;
+    display: flex;
+    justify-content: center;
+    width: 95px;
+    height: 28px;
+    font: 500 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .medium_title13 {
+    position: absolute;
+    top: 29px;
+    right: 518.5px;
+    bottom: 3257px;
+    left: 1339.5px;
+    display: flex;
+    justify-content: center;
+    width: 153px;
+    height: 28px;
+    font: 500 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .medium_title14 {
+    position: absolute;
+    top: 29px;
+    right: 503px;
+    bottom: 3257px;
+    left: 1501px;
+    display: flex;
+    justify-content: center;
+    width: 7px;
+    height: 28px;
+    font: 500 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .medium_title15 {
+    position: absolute;
+    top: 28px;
+    right: 680px;
+    bottom: 3258px;
+    left: 1324px;
+    display: flex;
+    justify-content: center;
+    width: 7px;
+    height: 28px;
+    font: 500 24px/1.16 "Roboto", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+}
